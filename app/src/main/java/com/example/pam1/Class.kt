@@ -10,4 +10,9 @@ fun main() {
 //    Prints the value of the properties: email
     println(contact.email)
 
+//    Update the value of the properties: email
+    contact.email = "jane@gmail.com"
+
+//    Prints the new value of the properties: email
+    println(contact.email)
 }
