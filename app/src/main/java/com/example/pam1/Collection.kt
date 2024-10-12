@@ -27,4 +27,12 @@ fun ContohList() {
 //    Mengubah data di dalaam List Mutable
     shape[0] = "Oval"
     println(shape)
+
+//    List Read-Only
+    val shapeLocked: List<String> = shape
+    println(shapeLocked)
+}
+
+fun main(){
+    ContohList()
 }
