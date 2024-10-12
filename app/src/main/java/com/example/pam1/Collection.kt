@@ -33,6 +33,14 @@ fun ContohList() {
     println(shapeLocked)
 }
 
+// Map adalah Kumpulan data yang disusun dalam pasangan key-value
+// Map bersifat undordered, artinya data yang dimasukkan dapat diubah dan tidak dapat diubah
+// Map bersifat Mutable dan Read Only, artinya data yang dimasukkan dapat diubah dan tidak dapat diubah
+// Map Read Only menggunakan mapOf
+// Map Mutable menggunakan mutableMapOf
+
+
+
 fun main(){
     ContohList()
 }
