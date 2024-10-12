@@ -24,5 +24,7 @@ fun ContohList() {
     shape.remove("Triangle")
     println(shape)
 
-
+//    Mengubah data di dalaam List Mutable
+    shape[0] = "Oval"
+    println(shape)
 }
