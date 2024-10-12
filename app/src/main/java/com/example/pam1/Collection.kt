@@ -68,4 +68,5 @@ fun ContohMap() {
 
 fun main(){
     ContohList()
+    ContohMap()
 }
